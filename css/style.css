@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: customfont;
+    src: url('../fonts/Mansalva-Regular.ttf');
+}
+
+
+a,a:hover,a:focus{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+/* index.php */
+.login{
+  padding:25px;
+}
+
+/* login.php */
+.container .row .row{
+  padding-right: 35px;
+}
+
+/* registration */
+.error{
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+}
+.usesss{
+  color: green;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* panel */
+.row  .row .col-sm-4 .panel{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.footer-area{
+  margin-top: 20px;
+  padding: 10px 0px;
+  background-color: #007BFF;
+  text-align: center;
+}
+.footer-area p{
+  margin: 0px;
+}
+.footer-area p a{
+  color: black;
+  target: -blank;
+}
+
+
+/* responsive index page */
+@media all and (max-width:446px){
+  .container .login h1{
+    font-size: 25px;
+  }
+    /* .container .row .ddl table tr td label{
+    font-size: 15px;
+  }
+  }
+  .container .row .ddl table tr td h3{
+    font-size: 18px;
+  }
+  .row .col-sm-6 .data-find tr td{
+    font-size: 15px;
+  } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+....
