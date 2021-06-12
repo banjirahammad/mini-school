@@ -21,7 +21,7 @@
         <h1 class="text-center">Welcome to School Management System</h1>
       </div>
       <div class="row">
-        <div class="col-sm-6 offset-sm-3">
+        <div class="col-sm-6 col-md-6 col-lg-6 offset-sm-3">
           <form class="ddl" action="index.php" method="post">
             <table class="table table-bordered">
               <tr>
