@@ -98,7 +98,8 @@
                 <table id="data" class="table table-striped table-bordered" style="width:100%">
                   <thead>
                     <tr>
-                      <th>Id</th>
+                      <th>Si</th>
+                      <!-- <th>Id</th> -->
                       <th>Name</th>
                       <th>Roll</th>
                       <th>Class</th>
@@ -110,12 +111,14 @@
                   <tbody>
                     <?php
                       $db_sinfo = mysqli_query($link,"SELECT * FROM `student_info`");
+                      $i = 1;
                       while ($row = mysqli_fetch_assoc($db_sinfo)) {?>
                       <!-- echo '<pre>';
                       print_r ($row);
                       echo '</pre>'; -->
                       <tr>
-                        <td><?php echo $row['id']; ?></td>
+                        <td><?php echo $i; $i++; ?></td>
+                        <!-- <td><?php // echo $row['id']; ?></td> -->
                         <td><?php echo ucwords($row['name']); ?></td>
                         <td><?php echo $row['roll']; ?></td>
                         <td><?php echo $row['class']; ?></td>
@@ -127,7 +130,8 @@
                   </tbody>
                   <tfoot>
                     <tr>
-                      <th>Id</th>
+                      <th>Si</th>
+                      <!-- <th>Id</th> -->
                       <th>Name</th>
                       <th>Roll</th>
                       <th>Class</th>
